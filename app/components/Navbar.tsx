@@ -25,7 +25,7 @@ const Navbar = () => {
   }, []);
   return (
     <nav
-      className={`fixed top-0 w-full h-[75px] z-50 bg-gradient-to-b from-black/75 px-4 ${
+      className={`fixed top-0 w-full h-[80px] z-50 bg-gradient-to-b from-black/75 px-4 ${
         !isOnTop && "!bg-black/40 !backdrop-blur !h-[64px]"
       } transition-all duration-300`}
     >
