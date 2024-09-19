@@ -23,7 +23,12 @@ const HeroSection = () => {
             consequuntur at?
           </p>
           <div>
-            <Button>Download</Button>
+            <a
+              href="https://expo.dev/artifacts/eas/4RJgrUMAjzmCh6S6D8gUuo.apk"
+              download
+            >
+              <Button>Download</Button>
+            </a>
           </div>
         </div>
       </div>
