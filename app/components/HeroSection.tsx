@@ -4,7 +4,7 @@ import Cover from "@/assets/pic1.jpg";
 
 const HeroSection = () => {
   return (
-    <div className="relative h-[300px]">
+    <div className="relative h-[300px] lg:h-[500px]">
       <Image
         src={Cover}
         alt="cover. cemetery overview"
@@ -13,11 +13,14 @@ const HeroSection = () => {
         className="w-full h-full object-cover"
       />
       <div className="absolute top-1 left-0 w-full h-full bg-gradient-to-t from-black border-0">
-        <div className="flex flex-col justify-end h-full w-full p-4 pb-10 space-y-2">
-          <span className="text-2xl font-bold">Southville 8B Cemetery</span>
-          <p className="text-muted-foreground text-sm max-w-[300px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
-            sapiente.
+        <div className="container mx-auto flex flex-col justify-end h-full w-full p-4 pb-10 lg:px-10 lg:pb-14 space-y-2 lg:space-y-4">
+          <span className="text-2xl lg:text-4xl font-bold">
+            Southville 8B Cemetery
+          </span>
+          <p className="text-muted-foreground text-sm leading-tight lg:leading-tight lg:text-lg max-w-[300px] lg:max-w-[550px] line-clamp-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            obcaecati sunt iure sequi voluptatum quidem, animi odit explicabo
+            consequuntur at?
           </p>
           <div>
             <Button>Download</Button>
