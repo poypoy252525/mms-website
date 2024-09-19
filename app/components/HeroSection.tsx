@@ -4,7 +4,7 @@ import Cover from "@/assets/pic1.jpg";
 
 const HeroSection = () => {
   return (
-    <div className="relative h-[300px] lg:h-[580px]">
+    <div className="relative h-[380px] lg:h-[580px]">
       <Image
         src={Cover}
         alt="cover. cemetery overview"
@@ -17,7 +17,7 @@ const HeroSection = () => {
           <span className="text-2xl lg:text-5xl font-bold">
             Southville 8B Cemetery
           </span>
-          <p className="text-white/60 text-sm leading-tight lg:leading-tight lg:text-lg max-w-[300px] lg:max-w-[550px] line-clamp-3">
+          <p className="text-white/60 text-sm leading-tight lg:leading-tight lg:text-lg max-w-[300px] lg:max-w-[550px] line-clamp-2 lg:line-clamp-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
             obcaecati sunt iure sequi voluptatum quidem, animi odit explicabo
             consequuntur at?
