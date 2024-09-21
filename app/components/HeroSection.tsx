@@ -24,8 +24,8 @@ const HeroSection = () => {
           </p>
           <div>
             <a
-              href="https://expo.dev/artifacts/eas/4RJgrUMAjzmCh6S6D8gUuo.apk"
-              download
+              href="https://expo.dev/artifacts/eas/xsHhjwe1UEr4bHtKhC82cF.apk"
+              download="Cemetery Mapping.apk"
             >
               <Button>Download</Button>
             </a>
