@@ -24,8 +24,8 @@ const HeroSection = () => {
           </p>
           <div>
             <a
-              href="https://expo.dev/artifacts/eas/xsHhjwe1UEr4bHtKhC82cF.apk"
-              download="Cemetery Mapping.apk"
+              href="https://github.com/poypoy252525/mms-mobile/releases/download/v1.0.0/MMS.apk"
+              download
             >
               <Button>Download</Button>
             </a>
