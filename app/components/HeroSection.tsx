@@ -24,7 +24,7 @@ const HeroSection = () => {
           </p>
           <div>
             <a
-              href="https://github.com/poypoy252525/mms-mobile/releases/download/v1.0.0/Gravestone.GPS.apk"
+              href="https://github.com/poypoy252525/mms-mobile/releases/download/v1.0.0/GravestoneGPS.apk"
               download
             >
               <Button>Download</Button>
